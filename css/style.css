@@ -1,20 +1,24 @@
 
 @font-face {
-  font-family: 'Roboto-Thin';
-  src: url(fonts/Roboto-Thin.ttf);
+  font-family: 'Roboto-Black';
+  src: url("../fonts/Roboto-Black.ttf");
 }
 
 @font-face {
-  font-family: 'Roboto-BoldItalic';
-  src: url(Roboto-BoldItalic.ttf);
+  font-family: 'Roboto-Bold';
+  src: url(../fonts/Roboto-Bold.ttf);
 }
 
+@font-face {
+  font-family: 'Roboto-LightItalic';
+  src: url(../fonts/Roboto-LightItalic.ttf);
+}
 
 
 h1{
 color: rgb(17, 74, 74);
 font-size: 40px;
-font-family:'Roboto-Thin';
+font-family:'Roboto-LightItalic',Georgia, Times, serif;
 }
 
 h2{
@@ -23,6 +27,6 @@ font-size: 35px;
 font-family: 'Roboto-Bold';
 }
 h3{
-  font-family:'Roboto-BoldItalic';
+  font-family:'Roboto-Black';
   font-size: 40px;
 }
