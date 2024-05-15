@@ -1,0 +1,28 @@
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url(fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-BoldItalic';
+  src: url(Roboto-BoldItalic.ttf);
+}
+
+
+
+h1{
+color: rgb(17, 74, 74);
+font-size: 40px;
+font-family:'Roboto-Thin';
+}
+
+h2{
+color: rgb(125, 27, 27);
+font-size: 35px;
+font-family: 'Roboto-Bold';
+}
+h3{
+  font-family:'Roboto-BoldItalic';
+  font-size: 40px;
+}
