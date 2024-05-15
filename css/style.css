@@ -63,7 +63,7 @@ h1.logo{
   font-family: "Roboto-Regular";
 
 }
-ul{
+ ul{
   list-style-type: none;
 }
 ul li a{
@@ -133,7 +133,27 @@ main{
   background-color: white;
 }
 
+/* about section */
 
+.section{
+  display: flex;
+  width: 50%;
+  padding: 20px 0px 0px 18px;
+  background-color: #f9fafb;
+  right: 0;
+  height: 300px;
+  position: fixed;
+  gap: 40px;
+}
+.section-image{
+  border:1px solid brown;
+  
+}
+
+img.section-image{
+  height: 250px;
+  width: 200px;
+}
 
 
 
