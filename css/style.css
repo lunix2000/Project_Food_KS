@@ -66,6 +66,14 @@ h1.logo{
 ul{
   list-style-type: none;
 }
+ul li a{
+  text-decoration: none;
+  color: #E5E7EB;
+}
+ul li a:hover{
+  text-decoration: none;
+  color: #a5a7ab;
+}
 
 .header-middle{
   display: flex;
