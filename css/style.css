@@ -1,4 +1,184 @@
 
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url("../fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-LightItalic';
+  src: url(../fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Regular' ;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+
+/* h1{
+font-size: 40px;
+font-family:'Roboto-Bold',Georgia;
+} */
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  
+  background-color: rgb(229, 233, 233);
+  color: white;
+  
+}
+header{
+  background-color:#1F2937 ;
+}
+
+nav.top-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+
+}
+
+h1.logo{
+  font-size: 24px;
+  color: #F9FAF8;
+  font-family: 'Roboto-Regular';
+}
+
+.nav-link{
+  font-size: 18px;
+  color: #E5E7EB;
+  display: flex;
+  gap: 15px;
+  font-family: "Roboto-Regular";
+
+}
+ ul{
+  list-style-type: none;
+}
+ul li a{
+  text-decoration: none;
+  color: #E5E7EB;
+}
+ul li a:hover{
+  text-decoration: none;
+  color: #a5a7ab;
+}
+
+.header-middle{
+  display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 50px;
+    color: white;
+    gap: 100px;
+  
+}
+h1.title{
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin-bottom: 13px;
+}
+
+p.header-text{
+  font-size: 18px;
+  color: #E5E7EB;
+  font-family: "Roboto-Regular";
+  margin-bottom: 13px;
+}
+.left{
+  width: 400px;
+}
+
+img.briyani-image{
+  width: 600px;
+  height: 340px;
+  transition: width 0.5s, height 0.5s;
+
+}
+img.briyani-image:hover{
+  opacity: .7;
+  width: 620px;
+  height: 360px;
+  cursor: pointer;
+}
+
+.header-button{
+  background-color: #3882F6;
+  padding: 8px 20px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  cursor: pointer;
+
+}
+.header-button:hover{
+  opacity: .8;
+}
+
+
+
+main{
+  background-color: white;
+}
+
+/* about section */
+
+.section{
+  display: flex;
+  width: 50%;
+  padding: 20px 0px 0px 18px;
+  background-color: #f9fafb;
+  right: 0;
+  height: 300px;
+  position: fixed;
+  gap: 40px;
+}
+.section-image{
+  border:1px solid brown;
+  
+}
+
+img.section-image{
+  height: 250px;
+  width: 200px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+  height: 100px;
+  background-color:#1F2937 ;
+display: flex;
+justify-content: center;
+align-items: center;
+  font-family:'Roboto-Regular' ;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+
+
+
+
 .header_body{
     display: flex;
     justify-content: center;
