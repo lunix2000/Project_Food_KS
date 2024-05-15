@@ -188,6 +188,10 @@ align-items: center;
     color: #1F2937;
 }
 
+.box_space{
+    padding-top: 20px;
+}
+
 .box_parent{
     display: flex;
     justify-content:space-between;
@@ -231,9 +235,11 @@ align-items: center;
 .box_description {
     margin: 0;
     text-align: center;
+    color: black;
 }
 
 .box_title {
     margin: 0;
     margin-top: 10px;
+    color: black;
 }
