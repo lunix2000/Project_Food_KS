@@ -325,3 +325,31 @@ footer{
     margin-top: 10px;
     color: black;
 }
+
+/* recipe section */
+
+.lasagna_parent{
+  display: flex;
+  justify-content: center;
+}
+
+.lasagna_container{
+  display: flex;
+  width: 90%;
+  background-color: #f9fafb;
+  left: 0;
+  height: 300px;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.recipes_img{
+  height: 270px;
+}
+
+.recipe{
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto-LightItalic';
+}
