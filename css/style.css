@@ -155,10 +155,22 @@ img.section-image{
   width: 200px;
 }
 
-.quote{
+.quote_parent{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.quote_container{
   display: flex;
-  height: 40%;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
   background-color: #E5E7EB;
+}
+
+.quote{
   justify-content: center;
   font-size: 36px;
   font-style: italic;
@@ -166,8 +178,12 @@ img.section-image{
   color: #1F2937;
 }
 
+.quote .author{
+  text-align: right;
+  font-weight: bold;
+}
+
 .signup{
-  display: flex;
   align-self: center;
   justify-content: center;
   font-size: 18px;
@@ -188,9 +204,9 @@ img.section-image{
 footer{
   height: 100px;
   background-color:#1F2937 ;
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family:'Roboto-Regular' ;
   width: 100%;
   bottom: 0;
