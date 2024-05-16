@@ -390,7 +390,7 @@ footer{
   display: flex;
   justify-content: center;
   flex-direction: row;
-  
+  margin-bottom: 20px;
 }
 
 .review_colomn{
