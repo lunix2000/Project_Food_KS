@@ -155,13 +155,35 @@ img.section-image{
   width: 200px;
 }
 
+.quote{
+  display: flex;
+  height: 40%;
+  background-color: #E5E7EB;
+  justify-content: center;
+  font-size: 36px;
+  font-style: italic;
+  font-family: "Roboto-Regular", sans-serif;
+  color: #1F2937;
+}
 
+.signup{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Roboto-Regular", sans-serif;
+  color: #F9FAF8;
+  background-color: #3882F6;
+}
 
-
-
-
-
-
+.signup button{
+  font-size: 18px;
+  font-family: "Roboto-Regular", sans-serif;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border-color: #F9FAF8;
+  border-radius: 15%;
+}
 
 footer{
   height: 100px;
