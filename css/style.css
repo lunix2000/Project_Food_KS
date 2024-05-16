@@ -355,3 +355,34 @@ footer{
   font-family: 'Roboto-LightItalic';
   width: 500px;
 }
+
+/* Review section*/
+
+.review_c{
+  display: flex;
+  width: 50%;
+  padding: 0px 0px 0px 18px;
+  background-color: #f9fafb;
+  height: 300px;
+  position: fixed;
+  left:25%;
+  top: 10%;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  border: 12px groove #1f2937;
+  border-radius: 100px;
+}
+
+.review-image{
+  border: 5px inset #1f2937;
+  height: 250px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.review_box{
+  color: #1f2937;
+  font-size: 20px;
+  font-family: 'Roboto-LightItalic';
+}
