@@ -143,13 +143,27 @@ main{
 .section{
   display: flex;
   width: 50%;
-  padding: 20px 0px 0px 18px;
+  padding: 0px 0px 0px 18px;
   background-color: #f9fafb;
   right: 0;
   height: 300px;
   position: fixed;
   gap: 40px;
+  align-items: center;
 }
+
+.section_c{
+  display: flex;
+  width: 50%;
+  padding: 0px 0px 0px 18px;
+  background-color: #f9fafb;
+  left: 0;
+  height: 300px;
+  position: fixed;
+  gap: 40px;
+  align-items: center;
+}
+
 .section-image{
   border:1px solid brown;
   
@@ -158,6 +172,12 @@ main{
 img.section-image{
   height: 250px;
   width: 200px;
+}
+
+.aboutus{
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto-LightItalic';
 }
 
 .quote_parent{
