@@ -19,6 +19,11 @@
   src: url(../fonts/Roboto-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url(../fonts/Roboto-Thin.ttf);
+}
+
 
 /* h1{
 font-size: 40px;
@@ -157,7 +162,6 @@ img.section-image{
 
 .quote_parent{
     display: flex;
-    margin: 0 auto;
     padding-top: 20px;
 }
 
@@ -173,8 +177,7 @@ img.section-image{
 .quote{
   justify-content: center;
   font-size: 36px;
-  font-style: italic;
-  font-family: "Roboto-Regular", sans-serif;
+  font-family: "Roboto-LightItalic", sans-serif;
   color: #1F2937;
 }
 
@@ -183,22 +186,47 @@ img.section-image{
   font-weight: bold;
 }
 
-.signup{
-  align-self: center;
+.signup_parent{
+  display: flex;
   justify-content: center;
-  font-size: 18px;
-  font-family: "Roboto-Regular", sans-serif;
-  color: #F9FAF8;
-  background-color: #3882F6;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.signup button{
+.signup_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 800px;
+  background-color: #3882F6;
+  border-radius: 5px;
+}
+
+.signup{
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Roboto-Thin", sans-serif;
+  color: #F9FAF8;
+}
+
+.signup h2{
+  justify-content: center;
+  font-family: "Roboto-Regular", sans-serif;
+  color: #F9FAF8;
+}
+
+.signup_container button{
   font-size: 18px;
   font-family: "Roboto-Regular", sans-serif;
   color: #F9FAF8;
   background-color: #3882F6;
-  border-color: #F9FAF8;
-  border-radius: 15%;
+  border:1px solid #F9FAF8;
+  border-radius: 5px;
+  height: 30px;
+  position: relative;
+  left: 60px;
+  width: 100px;
 }
 
 footer{
@@ -209,8 +237,8 @@ footer{
   align-items: center;
   font-family:'Roboto-Regular' ;
   width: 100%;
-  bottom: 0;
-  position: fixed;
+  /*bottom: 0;
+  position: fixed;*/
 }
 
 .header_body{
