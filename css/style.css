@@ -189,7 +189,7 @@ img.section-image{
 .signup_parent{
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 70px;
   padding-bottom: 100px;
 }
 
@@ -230,15 +230,15 @@ img.section-image{
 }
 
 footer{
-  height: 100px;
+  height: 40px;
   background-color:#1F2937 ;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family:'Roboto-Regular' ;
   width: 100%;
-  /*bottom: 0;
-  position: fixed;*/
+  bottom: 0;
+  position: fixed;
 }
 
 .header_body{
