@@ -57,12 +57,13 @@ nav.top-nav{
 
 }
 
-h1.logo{
+a.logo{
   font-size: 24px;
   color: #F9FAF8;
-  font-family: 'Roboto-Regular';
+  font-family: 'Roboto-Bold';
+  text-decoration: none;
+   color: white;
 }
-
 .nav-link{
   font-size: 18px;
   color: #E5E7EB;
