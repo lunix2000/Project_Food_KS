@@ -62,7 +62,11 @@ a.logo{
   color: #F9FAF8;
   font-family: 'Roboto-Bold';
   text-decoration: none;
-   color: white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 .nav-link{
   font-size: 18px;
@@ -358,22 +362,41 @@ footer{
   display: flex;
   justify-content: center;
   background-color: #E5E7EB;
-  /*border:2px inset #1F2937;*/
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .lasagna_container{
   display: flex;
-  width: 90%;
+  width: 65%;
   left: 0;
   height: 350px;
   gap: 40px;
   align-items: center;
   justify-content: center;
+
+}
+
+.carbonara_parent{
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+}
+
+.carbonara_container{
+  display: flex;
+  width: 65%;
+  left: 0;
+  height: 350px;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
 
 .recipes_img{
-  height: 250px;
-  width: 250px;
+  width: 440px;
+  height: 350px;
 }
 
 .recipe{
