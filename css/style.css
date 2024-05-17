@@ -589,6 +589,7 @@ img.image_rev{
   width: 250px;
   height: 200px;
   border-radius: 100%;
+  border:4px solid #1F2937;
 }
 
   .review_content {
