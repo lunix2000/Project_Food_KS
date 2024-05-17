@@ -152,8 +152,59 @@ main{
 .about-section{
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 230px;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 912px){
+  .about-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .section_s_flex{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  li{
+    font-size: 70%;
+  }
+  .aboutus{
+    margin-right: 20px;
+    justify-content:normal !important;
+  }
+  .section{
+    gap: 15px !important;
+    width: 80% !important;
+    height: 100% !important;
+    padding: 2% !important ;
+  }
+  .section_c{
+    gap: 15px !important;
+    width: 80% !important;
+    height: 100% !important;
+    padding: 2% !important ;
+  }
+  .section_s{
+    gap: 15px !important;
+    width: 80% !important;
+    height: 100% !important;
+    padding: 2% !important ;
+    margin-bottom: 30px;
+  }
+  footer{
+    width: 100% !important;
+  }
+  header{
+    width: 100% !important;
+  }
+  .section-image{
+    height: 120px !important;
+    width: 100px !important;
+  }
 }
 
 .section{
@@ -163,11 +214,10 @@ main{
   background-color: #e5e7eb;
   right: 50px;
   height: 300px;
-  position: fixed;
   gap: 40px;
   border-radius: 15px;
   align-items: center;
-  /* margin-top: 70px;*/
+  margin-top: 70px;
 }
 
 .section_c{
@@ -177,11 +227,10 @@ main{
   background-color: #e5e7eb;
   left: 50px;
   height: 300px;
-
-  position: fixed;
   border-radius: 15px;
   gap: 40px;
   align-items: center;
+  margin-top: 70px;
 }
 
 .section_s_flex{
@@ -195,11 +244,10 @@ main{
   padding: 0px 0px 0px 18px;
   background-color: #e5e7eb;
   height: 300px;
-  position: fixed;
   gap: 40px;
   align-items: center;
-  margin-top: 210px;
   border-radius: 15px;
+  margin-top: 70px;
 }
 
 .section-image{
@@ -217,6 +265,8 @@ img.section-image{
   color: black;
   font-size: 20px;
   font-family: 'Roboto-LightItalic';
+  flex-wrap: wrap;
+  justify-content: left;
 }
 
 .quote_parent{
