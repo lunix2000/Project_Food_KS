@@ -149,30 +149,39 @@ main{
 
 /* about section */
 
+.about-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 230px;
+}
+
 .section{
   display: flex;
-  width: 49%;
+  width: 45%;
   padding: 0px 0px 0px 18px;
-  background-color: #f9fafb;
-  right: 10px;
+  background-color: #e5e7eb;
+  right: 50px;
   height: 300px;
   position: fixed;
   gap: 40px;
+  border-radius: 15px;
   align-items: center;
-  margin-top: 15px;
+  /* margin-top: 70px;*/
 }
 
 .section_c{
   display: flex;
-  width: 49%;
+  width: 45%;
   padding: 0px 0px 0px 18px;
-  background-color: #f9fafb;
-  left: 10px;
+  background-color: #e5e7eb;
+  left: 50px;
   height: 300px;
+
   position: fixed;
+  border-radius: 15px;
   gap: 40px;
   align-items: center;
-  margin-top: 15px;
 }
 
 .section_s_flex{
@@ -189,7 +198,7 @@ main{
   position: fixed;
   gap: 40px;
   align-items: center;
-  margin-top: 330px;
+  margin-top: 210px;
   border-radius: 15px;
 }
 
