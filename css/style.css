@@ -40,7 +40,10 @@ body{
   
   background-color: rgb(229, 233, 233);
   color: white;
-  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
 }
 header{
   background-color:#1F2937 ;
@@ -54,12 +57,13 @@ nav.top-nav{
 
 }
 
-h1.logo{
+a.logo{
   font-size: 24px;
   color: #F9FAF8;
-  font-family: 'Roboto-Regular';
+  font-family: 'Roboto-Bold';
+  text-decoration: none;
+   color: white;
 }
-
 .nav-link{
   font-size: 18px;
   color: #E5E7EB;
@@ -136,36 +140,58 @@ img.briyani-image:hover{
 
 main{
   background-color: white;
+  flex: 1;
 }
 
 /* about section */
 
 .section{
   display: flex;
-  width: 50%;
+  width: 49%;
   padding: 0px 0px 0px 18px;
   background-color: #f9fafb;
-  right: 0;
+  right: 10px;
   height: 300px;
   position: fixed;
   gap: 40px;
   align-items: center;
+  margin-top: 15px;
 }
 
 .section_c{
   display: flex;
-  width: 50%;
+  width: 49%;
   padding: 0px 0px 0px 18px;
   background-color: #f9fafb;
-  left: 0;
+  left: 10px;
   height: 300px;
   position: fixed;
   gap: 40px;
   align-items: center;
+  margin-top: 15px;
+}
+
+.section_s_flex{
+  display: flex;
+  justify-content: center;
+}
+
+.section_s{
+  display: flex;
+  width: 45%;
+  padding: 0px 0px 0px 18px;
+  background-color: #e5e7eb;
+  height: 300px;
+  position: fixed;
+  gap: 40px;
+  align-items: center;
+  margin-top: 330px;
+  border-radius: 15px;
 }
 
 .section-image{
-  border:1px solid brown;
+  border:4px solid #3882f6;
+  border-radius: 15px;
   
 }
 
@@ -258,7 +284,7 @@ footer{
   font-family:'Roboto-Regular' ;
   width: 100%;
   bottom: 0;
-  position: fixed;
+  position: static;
 }
 
 .header_body{
@@ -346,43 +372,99 @@ footer{
 }
 
 .recipes_img{
-  height: 330px;
+  height: 250px;
+  width: 250px;
 }
 
 .recipe{
   color: black;
   font-size: 20px;
   font-family: 'Roboto-LightItalic';
-  width: 500px;
 }
 
-/* Review section*/
-
-.review_c{
+.reviews{
+  color: black;
   display: flex;
-  width: 50%;
-  padding: 0px 0px 0px 18px;
-  background-color: #f9fafb;
-  height: 300px;
-  position: fixed;
-  left:25%;
-  top: 10%;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  border: 12px groove #1f2937;
-  border-radius: 100px;
-}
-
-.review-image{
-  border: 5px inset #1f2937;
-  height: 250px;
-  width: 200px;
-  border-radius: 100%;
 }
 
 .review_box{
-  color: #1f2937;
-  font-size: 20px;
-  font-family: 'Roboto-LightItalic';
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 20px;
 }
+
+.review_colomn{
+  background-color: #e5e7eb;
+  border-radius: 15px;
+  width: 60%;
+  padding: 20px
+}
+
+.review_image{
+  display: flex;
+  justify-content: left;
+  }
+
+  .review_content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 10px;
+  }
+  
+  .review_body {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+
+  .review_author{
+    justify-content: center;
+    font-size: 23px;
+    font-family: "Roboto-LightItalic", sans-serif;
+    color: black;
+    margin-top: 10px;
+  }
+
+  .review_quote{
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Roboto-LightItalic", sans-serif;
+    color: blacke;
+    text-align: justify;
+  }
+
+  .review_title{
+    justify-content: center;
+    font-size: 36px;
+    font-family: "Roboto-LightItalic", sans-serif;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .review_quote .review_author{
+    text-align: right;
+    font-weight: bold;
+  }
+
+  .headers_titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 20px;
+  }
+
+  .review-image{
+    border:4px solid #1F2937;
+    border-radius: 100%;
+  }
+
+  .recipes-image{
+    border:4px solid #1F2937;
+    border-radius: 15px;
+  }
