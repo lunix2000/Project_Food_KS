@@ -132,7 +132,9 @@ img.briyani-image:hover {
 }
 
 main {
-  background-color: white;
+  background-image: url("https://as1.ftcdn.net/v2/jpg/02/52/12/40/1000_F_252124067_aCtp9ZD934RboKmjJzkXiwYDL7XkNjpn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   flex: 1;
 }
 
@@ -355,6 +357,7 @@ footer {
 .box_space {
   padding-top: 20px;
   background-color: white;
+  background-image: none;
 }
 
 .box_parent {
@@ -733,6 +736,7 @@ footer {
 
 }
 
+
 .reviews {
   color: black;
   display: flex;
@@ -821,7 +825,7 @@ img.image_rev{
   align-items: center;
   font-family: "Roboto";
   font-size: 36px;
-  color: #1f2937;
+  color: #e5e7eb;
   margin-bottom: 20px;
 }
 
