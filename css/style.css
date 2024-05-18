@@ -354,6 +354,7 @@ footer {
 
 .box_space {
   padding-top: 20px;
+  background-color: white;
 }
 
 .box_parent {
@@ -762,7 +763,6 @@ img.image_rev{
   height: 200px;
   border-radius: 100%;
   border:4px solid #1F2937;
-}
 }
 
 .review_content {
