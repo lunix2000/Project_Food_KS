@@ -149,7 +149,7 @@ main {
 h1.top-h{
   font-family: Roboto-Black;
   font-size: 70px;
-  color:#6DC5D1;
+  color:#1f2937;
   width: 100%;
   display: flex;
   padding: 20px;
@@ -158,7 +158,7 @@ h1.top-h{
 p.top-h2{
   font-family: Roboto-LightItalic;
   font-size: 40px;
-  color: #3882f6;
+  color:black;
   /* margin-left: 240px; */
   padding: 40px;
 }
@@ -237,7 +237,6 @@ img.about-image{
 p.top-h2{
   font-family: Roboto-LightItalic;
   font-size: 15px;
-  color: #3882f6;
   /* margin-left: 240px; */
   padding: 10px;
 }
@@ -254,7 +253,7 @@ img.about-image{
 p.top-h2{
   font-family: Roboto-LightItalic;
   font-size: 25px;
-  color: #3882f6;
+  
   /* margin-left: 240px; */
   padding: 10px;
 }
