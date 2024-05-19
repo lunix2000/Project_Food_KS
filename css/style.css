@@ -95,6 +95,22 @@ h1.title {
   font-weight: 900;
   color: #f9faf8;
   margin-bottom: 13px;
+  text-align: center;
+}
+
+.header-middle-recipe {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  color: white;
+}
+
+.title_recipe {
+  font-size: 4vw;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 13px;
+  text-align: center;
 }
 
 p.header-text {
@@ -103,8 +119,22 @@ p.header-text {
   font-family: "Roboto-Regular";
   margin-bottom: 13px;
 }
-.left {
+.left-recipe {
+  width: 80%; /* Adjust the width to be more responsive */
+  max-width: 800px; /* Add a maximum width if needed */
+  margin: 0 auto;
+}
+
+.left{
   width: 400px;
+}
+
+p.header-text-recipe {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-family: "Roboto-Regular";
+  margin-bottom: 13px;
+  text-align: center;
 }
 
 img.briyani-image {
@@ -145,56 +175,79 @@ main {
   flex-direction: row;
 }
 
-@media only screen and (max-width: 912px){
-  .about-section{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
+@media screen and  (max-width:1400px) {
+  .header-middle-recipe{
+    padding: 4% 4% 4% 4%;
   }
-  .section_s_flex{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    width: 100%;
+  .left-recipe{
+
   }
-  li{
-    font-size: 70%;
+  .title_recipe{
   }
-  .aboutus{
-    margin-right: 20px;
-    justify-content:normal !important;
+  .lasagna_parent{
+
   }
-  .section{
-    gap: 15px !important;
-    width: 80% !important;
-    height: 100% !important;
-    padding: 2% !important ;
+  .lasagna_container{
   }
-  .section_c{
-    gap: 15px !important;
-    width: 80% !important;
-    height: 100% !important;
-    padding: 2% !important ;
+  .carbonara_container{
   }
-  .section_s{
-    gap: 15px !important;
-    width: 80% !important;
-    height: 100% !important;
-    padding: 2% !important ;
-    margin-bottom: 30px;
+  .lasagna_container:hover{
+
   }
-  footer{
-    width: 100% !important;
+  .recipe_title{
   }
-  header{
-    width: 100% !important;
+  
+  .text_container{
   }
-  .section-image{
-    height: 120px !important;
-    width: 100px !important;
+  .recipes_img{
+  }
+  
+  .recipes_carbonara_img{
   }
 }
+
+@media screen and  (max-width:1440px) {
+  .recipe{
+    font-size: 1.5vw !important;
+  }
+}
+@media screen and  (max-width:1025px) {
+  .recipe{
+    font-size: 12px !important;
+  }
+}
+@media screen and  (max-width:768px) {
+  .lasagna_container{
+    height: 25vh !important;
+  }
+  .carbonara_container{
+    height: 25vh !important;
+  }
+  .recipe{
+    font-size: 12px !important;
+  }
+  .header-text-recipe{
+    font-size: 100% !important;
+  }
+}
+@media screen and  (max-width:578px) {
+  .recipe{
+    font-size: 60% !important;
+  }
+  .header-text-recipe{
+    font-size: 60% !important;
+  }
+  .title_recipe{
+    font-size: 100%;
+  }
+}
+@media screen and  (max-width:360px) {
+  .recipe{
+    font-size: 55% !important;
+  }
+}
+
+
 
 .section {
   display: flex;
@@ -414,140 +467,77 @@ footer {
   display: flex;
   justify-content: center;
   background-color: #e5e7eb;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 2vw;
 }
 
 .lasagna_container {
   display: flex;
-  width: 65%;
+  width: 80vw;
   left: 0;
-  height: 350px;
-  gap: 40px;
+  height: 45vh;
   align-items: center;
   justify-content: center;
-}
-
-.carbonara_parent {
-  display: flex;
-  justify-content: center;
-  background-color: #e5e7eb;
+  background-color: white;
+  flex-direction: row;
+  border-radius: 20px;
+  box-shadow: 0 16px 18px rgba(0, 0, 0, 0.1);
 }
 
 .carbonara_container {
   display: flex;
-  width: 65%;
+  width: 80vw;
   left: 0;
-  height: 350px;
-  gap: 40px;
+  height: 45vh;
   align-items: center;
   justify-content: center;
-  flex-direction: row-reverse;
+  background-color: white;
+  flex-direction: row;
+  border-radius: 20px;
+  box-shadow: 0 16px 18px rgba(0, 0, 0, 0.1);
+}
+
+.text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1vw 2vw 2vw 2vw;
 }
 
 .recipes_img {
-  width: 440px;
-  height: 350px;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.recipes_carbonara_img {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.lasagna_container:hover,
+.carbonara_container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.recipe_title{
+  color: black;
+  font-family: "Roboto-Bold";
+  font-size: 3vw;
+  padding-bottom: 2vw;
 }
 
 .recipe {
   color: black;
-  font-size: 20px;
-  font-family: "Roboto-LightItalic";
-}
-
-@media screen and (max-width: 1250px) {
-  .lasagna_container {
-    width: 80%;
-  }
-
-  .lasagna_container .recipes_img {
-    width: auto;
-    height: 250px;
-  }
-
-  .lasagna_container .recipe {
-    font-size: inherit;
-  }
-
-  .carbonara_container {
-    width: 80%;
-    gap: 30px;
-  }
-
-  .carbonara_container .recipes_img {
-    width: auto;
-    height: 250px;
-  }
-
-  .carbonara_container .recipe {
-    font-size: inherit;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .lasagna_container {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .lasagna_container .recipes_img {
-    width: auto;
-    height: 170px;
-  }
-
-  .lasagna_container .recipe {
-    font-size: inherit;
-  }
-
-  .carbonara_container {
-    flex-direction: column;
-    width: 100%;
-    gap: 30px;
-  }
-
-  .carbonara_container .recipes_img {
-    width: auto;
-    height: 170px;
-  }
-
-  .carbonara_container .recipe {
-    font-size: inherit;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .lasagna_container {
-    flex-direction: column;
-    width: 100%;
-    gap: 10px;
-  }
-
-  .lasagna_container .recipes_img {
-    width: auto;
-    height: 140px;
-  }
-
-  .lasagna_container .recipe {
-    font-size: inherit;
-  }
-
-  .carbonara_container {
-    flex-direction: column;
-    width: 100%;
-    gap: 10px;
-    position: relative;
-    top: 10px;
-  }
-
-  .carbonara_container .recipes_img {
-    width: auto;
-    height: 120px;
-  }
-
-  .carbonara_container .recipe {
-    font-size: inherit;
-  }
+  font-size: 1.3vw;
+  font-family: "Roboto-Regular";
 }
 
 @media only screen and (max-width: 770px) {
@@ -640,7 +630,7 @@ footer {
     font-size: 20px;
   }
   p.header-text{
-    font-size: 10px;
+    font-size: 2vw;
     
   }
   .header-button{
@@ -732,6 +722,14 @@ footer {
 
 }
 
+.header-background{
+  background-image: url(../images/food.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30%;
+}
+
 .reviews {
   color: black;
   display: flex;
@@ -762,7 +760,6 @@ img.image_rev{
   height: 200px;
   border-radius: 100%;
   border:4px solid #1F2937;
-}
 }
 
 .review_content {
