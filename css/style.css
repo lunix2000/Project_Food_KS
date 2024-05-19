@@ -162,7 +162,9 @@ img.briyani-image:hover {
 }
 
 main {
-  background-color: white;
+  /* background-image: url("https://as1.ftcdn.net/v2/jpg/02/52/12/40/1000_F_252124067_aCtp9ZD934RboKmjJzkXiwYDL7XkNjpn.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
   flex: 1;
 }
 
@@ -174,6 +176,33 @@ main {
   justify-content: space-evenly;
   flex-direction: row;
 }
+h1.top-h{
+  font-family: Roboto-Black;
+  font-size: 70px;
+  color:#1f2937;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+p.top-h2{
+  font-family: Roboto-LightItalic;
+  font-size: 40px;
+  color:black;
+  /* margin-left: 240px; */
+  padding: 40px;
+}
+.main-top-2{
+  display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+.intro-section{
+  background-color: white;
+}
+
+
 
 @media screen and  (max-width:1400px) {
   .header-middle-recipe{
@@ -237,6 +266,44 @@ main {
   .header-text-recipe{
     font-size: 60% !important;
   }
+  .section-image{
+    height: 120px !important;
+    width: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  h1.top-h{
+    
+    font-size: 20px;
+}
+img.about-image{
+  width: 80%;
+  height: auto;
+}
+p.top-h2{
+  font-family: Roboto-LightItalic;
+  font-size: 15px;
+  /* margin-left: 240px; */
+  padding: 10px;
+}
+}
+@media only screen and (max-width: 768px){
+  h1.top-h{
+    
+    font-size: 40px;
+}
+img.about-image{
+  width: 80%;
+  height: auto;
+}
+p.top-h2{
+  font-family: Roboto-LightItalic;
+  font-size: 25px;
+  
+  /* margin-left: 240px; */
+  padding: 10px;
+}
   .title_recipe{
     font-size: 100%;
   }
@@ -290,6 +357,7 @@ main {
   align-items: center;
   border-radius: 15px;
   margin-top: 70px;
+  margin-bottom: 30px;
 }
 
 .section-image {
@@ -407,6 +475,8 @@ footer {
 
 .box_space {
   padding-top: 20px;
+  background-color: white;
+  background-image: none;
 }
 
 .box_parent {
@@ -722,6 +792,7 @@ footer {
 
 }
 
+
 .header-background{
   background-image: url(../images/food.jpg);
   background-repeat: repeat;
@@ -818,7 +889,7 @@ img.image_rev{
   align-items: center;
   font-family: "Roboto";
   font-size: 36px;
-  color: #1f2937;
+  color: #e5e7eb;
   margin-bottom: 20px;
 }
 
