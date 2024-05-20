@@ -33,6 +33,7 @@ font-family:'Roboto-Bold',Georgia;
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: rgb(229, 233, 233);
   color: white;
@@ -41,11 +42,12 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+
 header {
   background-color: #1f2937;
 }
 
-header.background_review{
+header.background_review {
   background-image: url("../images/spice.jpg");
 }
 
@@ -67,6 +69,7 @@ a.logo {
   align-items: center;
   gap: 5px;
 }
+
 .nav-link {
   font-size: 18px;
   color: #e5e7eb;
@@ -74,13 +77,16 @@ a.logo {
   gap: 15px;
   font-family: "Roboto-Regular";
 }
+
 ul {
   list-style-type: none;
 }
+
 ul li a {
   text-decoration: none;
   color: #e5e7eb;
 }
+
 ul li a:hover {
   text-decoration: none;
   color: #a5a7ab;
@@ -94,6 +100,7 @@ ul li a:hover {
   color: white;
   gap: 100px;
 }
+
 h1.title {
   font-size: 48px;
   font-weight: 900;
@@ -123,13 +130,16 @@ p.header-text {
   font-family: "Roboto-Regular";
   margin-bottom: 13px;
 }
+
 .left-recipe {
-  width: 80%; /* Adjust the width to be more responsive */
-  max-width: 800px; /* Add a maximum width if needed */
+  width: 80%;
+  /* Adjust the width to be more responsive */
+  max-width: 800px;
+  /* Add a maximum width if needed */
   margin: 0 auto;
 }
 
-.left{
+.left {
   width: 400px;
 }
 
@@ -146,6 +156,7 @@ img.briyani-image {
   height: 340px;
   transition: width 0.5s, height 0.5s;
 }
+
 img.briyani-image:hover {
   opacity: 0.7;
   width: 620px;
@@ -161,6 +172,7 @@ img.briyani-image:hover {
   color: white;
   cursor: pointer;
 }
+
 .header-button:hover {
   opacity: 0.8;
 }
@@ -180,115 +192,134 @@ main {
   justify-content: space-evenly;
   flex-direction: row;
 }
-h1.top-h{
+
+h1.top-h {
   font-family: Roboto-Black;
   font-size: 70px;
-  color:#1f2937;
+  color: #1f2937;
   width: 100%;
   display: flex;
   padding: 20px;
   justify-content: center;
 }
-p.top-h2{
+
+p.top-h2 {
   font-family: Roboto-LightItalic;
   font-size: 40px;
-  color:black;
+  color: black;
   /* margin-left: 240px; */
   padding: 40px;
 }
-.main-top-2{
+
+.main-top-2 {
   display: flex;
-    width: 80%;
-    justify-content: center;
-    margin: 0 auto;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
 }
-.intro-section{
+
+.intro-section {
   background-color: white;
 }
 
 
 
-@media screen and  (max-width:1400px) {
-  .header-middle-recipe{
+@media screen and (max-width:1400px) {
+  .header-middle-recipe {
     padding: 4% 4% 4% 4%;
   }
 }
 
-@media screen and  (max-width:1440px) {
-  .recipe{
+@media screen and (max-width:1440px) {
+  .recipe {
     font-size: 1.5vw !important;
   }
 }
-@media screen and  (max-width:1025px) {
-  .recipe{
+
+@media screen and (max-width:1025px) {
+  .recipe {
     font-size: 12px !important;
   }
 }
-@media screen and  (max-width:768px) {
-  .lasagna_container{
+
+@media screen and (max-width:768px) {
+  .lasagna_container {
     height: 25vh !important;
   }
-  .carbonara_container{
+
+  .carbonara_container {
     height: 25vh !important;
   }
-  .recipe{
+
+  .recipe {
     font-size: 12px !important;
   }
-  .header-text-recipe{
+
+  .header-text-recipe {
     font-size: 100% !important;
   }
 }
-@media screen and  (max-width:578px) {
-  .recipe{
+
+@media screen and (max-width:578px) {
+  .recipe {
     font-size: 60% !important;
   }
-  .header-text-recipe{
+
+  .header-text-recipe {
     font-size: 60% !important;
   }
-  .section-image{
+
+  .section-image {
     height: 120px !important;
     width: 100px !important;
   }
 }
 
-@media only screen and (max-width: 425px){
-  h1.top-h{
-    
+@media only screen and (max-width: 425px) {
+  h1.top-h {
+
     font-size: 20px;
+  }
+
+  img.about-image {
+    width: 80%;
+    height: auto;
+  }
+
+  p.top-h2 {
+    font-family: Roboto-LightItalic;
+    font-size: 15px;
+    /* margin-left: 240px; */
+    padding: 10px;
+  }
 }
-img.about-image{
-  width: 80%;
-  height: auto;
-}
-p.top-h2{
-  font-family: Roboto-LightItalic;
-  font-size: 15px;
-  /* margin-left: 240px; */
-  padding: 10px;
-}
-}
-@media only screen and (max-width: 768px){
-  h1.top-h{
-    
+
+@media only screen and (max-width: 768px) {
+  h1.top-h {
+
     font-size: 40px;
-}
-img.about-image{
-  width: 80%;
-  height: auto;
-}
-p.top-h2{
-  font-family: Roboto-LightItalic;
-  font-size: 25px;
-  
-  /* margin-left: 240px; */
-  padding: 10px;
-}
-  .title_recipe{
+  }
+
+  img.about-image {
+    width: 80%;
+    height: auto;
+  }
+
+  p.top-h2 {
+    font-family: Roboto-LightItalic;
+    font-size: 25px;
+
+    /* margin-left: 240px; */
+    padding: 10px;
+  }
+
+  .title_recipe {
     font-size: 100%;
   }
 }
-@media screen and  (max-width:360px) {
-  .recipe{
+
+@media screen and (max-width:360px) {
+  .recipe {
     font-size: 55% !important;
   }
 }
@@ -391,7 +422,7 @@ img.section-image {
   display: flex;
   justify-content: center;
   padding: 60px;
-  
+
 }
 
 .signup_container {
@@ -427,7 +458,7 @@ img.section-image {
   border-radius: 5px;
   height: 30px;
   position: relative;
-  
+
   width: 100px;
 }
 
@@ -576,7 +607,7 @@ footer {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
-.recipe_title{
+.recipe_title {
   color: black;
   font-family: "Roboto-Bold";
   font-size: 3vw;
@@ -596,24 +627,29 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
   .header-image {
     width: 400px;
   }
+
   img.briyani-image {
     height: auto;
     width: 100%;
     transition: none;
   }
+
   img.briyani-image:hover {
     opacity: 0.7;
     cursor: pointer;
     width: 100%;
     height: 100%;
   }
+
   .header_body {
     text-align: center;
     font-size: 20px;
   }
+
   .box_parent {
     display: flex;
     flex-direction: column;
@@ -621,27 +657,32 @@ footer {
     align-items: center;
     width: auto;
   }
+
   .quote_container {
     width: auto;
     display: flex;
     flex-direction: column;
   }
+
   .quote {
     font-size: 25px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    
+
   }
+
   .signup_parent {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    
+
   }
+
   .signup {
     margin-bottom: 10px;
   }
+
   .signup_container {
     display: flex;
     width: auto;
@@ -649,133 +690,158 @@ footer {
     padding: 20px;
     flex-direction: column;
   }
+
   .signup_container button {
-    
+
     height: auto;
-    
-    
-   
+
+
+
   }
 }
 
 @media only screen and (max-width: 425px) {
-  a.logo{
+  a.logo {
     font-size: 15px;
   }
-  nav.top-nav{
+
+  nav.top-nav {
     padding: 28px;
     display: flex;
-    
+
     justify-content: space-evenly;
   }
-  .nav-link{
+
+  .nav-link {
     font-size: 15px;
   }
-  .header-middle{
-   
+
+  .header-middle {
+
     padding-left: 15px;
   }
-  h1.title{
+
+  h1.title {
     font-size: 20px;
   }
-  p.header-text{
+
+  p.header-text {
     font-size: 2vw;
-    
+
   }
-  .header-button{
+
+  .header-button {
     width: 90px;
   }
-  .left{
+
+  .left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 38px;
   }
+
   .quote {
     font-size: 25px;
     padding: 25px;
     display: flex;
     flex-direction: column;
-}
-.header-image{
-  width: auto;
-}
-
-}
-@media only screen and (max-width: 375px) {
-  a.logo{
-    font-size: 15px;
-  }
-  nav.top-nav{
-    padding: 28px;
-    display: flex;
-    gap: 15px;
-    justify-content: space-between;
-  }
-  .nav-link{
-    font-size: 15px;
-  }
-  .header-middle{
-    padding: 15px;
-    padding-left: 15px;
-  }
-  h1.title{
-    font-size: 15px;
-  }
-  p.header-text{
-    font-size: 10px;
-    
-  }
-  .left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0px 15px 0 25px;
-    
   }
 
-}
-@media only screen and (max-width: 320px) {
-  a.logo{
-    font-size: 15px;
-  }
-  nav.top-nav{
-    padding: 28px;
-    display: flex;
-    gap: 15px;
-    justify-content: space-between;
-  }
-  .nav-link{
-    font-size: 15px;
-  }
-  .header-middle{
-    padding: 15px;
-    padding-left: 15px;
-  }
-  h1.title{
-    font-size: 16px;
-  }
-  p.header-text{
-    font-size: 10px;
-    
-  }
-  .left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px;
-  }
-  .header-image{
+  .header-image {
     width: auto;
   }
 
 }
 
-main.background{
+@media only screen and (max-width: 375px) {
+  a.logo {
+    font-size: 15px;
+  }
+
+  nav.top-nav {
+    padding: 28px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+  }
+
+  .nav-link {
+    font-size: 15px;
+  }
+
+  .header-middle {
+    padding: 15px;
+    padding-left: 15px;
+  }
+
+  h1.title {
+    font-size: 15px;
+  }
+
+  p.header-text {
+    font-size: 10px;
+
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 15px 0 25px;
+
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+  a.logo {
+    font-size: 15px;
+  }
+
+  nav.top-nav {
+    padding: 28px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+  }
+
+  .nav-link {
+    font-size: 15px;
+  }
+
+  .header-middle {
+    padding: 15px;
+    padding-left: 15px;
+  }
+
+  h1.title {
+    font-size: 16px;
+  }
+
+  p.header-text {
+    font-size: 10px;
+
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .header-image {
+    width: auto;
+  }
+
+}
+
+main.background {
   background-image: url("../images/spoons.jpg");
 }
 
-.header-background{
+.header-background {
   background-image: url(../images/food.jpg);
   background-repeat: repeat;
   background-size: cover;
@@ -783,12 +849,12 @@ main.background{
   height: 30%;
 }
 
-.header-background-reviews{
+.header-background-reviews {
   /* background-image: url(../images/spice.jpg);
   background-repeat: repeat;
   background-size: cover;
   background-position: center; */
-  background-color:#1F2937;
+  background-color: #1F2937;
 }
 
 .reviews {
@@ -811,12 +877,15 @@ main.background{
   padding: 20px;
   box-shadow: 0 16px 18px rgba(0, 0, 0, 0.2);
 }
+
 .review_colomn:hover {
   background-color: #1f2937;
-  border-radius: 15px;
-  width: 60%;
-  padding: 20px;
-  box-shadow: 0 16px 18px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.review_colomn:hover .review_title,
+.review_colomn:hover .review_quote,
+.review_colomn:hover .review_author {
   color: white;
 }
 
@@ -826,11 +895,11 @@ main.background{
   align-items: center;
 }
 
-img.image_rev{
+img.image_rev {
   width: 200px;
   height: 200px;
   border-radius: 20px;
-  border:4px solid #1F2937;
+  border: 4px solid #1F2937;
 }
 
 .review_content {
@@ -855,13 +924,14 @@ img.image_rev{
   margin-top: 10px;
 }
 
-  .review_quote{
-    justify-content: center;
-    font-size: 20px;
-    font-family: "Roboto-LightItalic", sans-serif;
-    color: black;
-    text-align: justify;
-  }
+.review_quote {
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Roboto-LightItalic", sans-serif;
+  color: black;
+  text-align: justify;
+}
+
 .review_quote {
   justify-content: center;
   font-size: 20px;
@@ -898,165 +968,166 @@ img.image_rev{
   border-radius: 100%;
 }
 
-  .recipes-image{
-    border:4px solid #1F2937;
-    border-radius: 15px;
+.recipes-image {
+  border: 4px solid #1F2937;
+  border-radius: 15px;
+}
+
+.star_rating {
+  width: 250px;
+  height: 50px;
+}
+
+@media screen and (max-width: 1250px) {
+  .review_box {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+
+  .review_colomn {
+    width: 70%;
+    height: auto;
+  }
+
+  img.image_rev {
+    align-items: center;
+    width: 200px;
+    height: 200px;
+  }
+
+  .review_content {
+    padding-left: 10px;
+  }
+
+  .review_body {
+    padding-left: 10px;
+  }
+
+  .review_author {
+    font-size: 19px;
+    margin-top: 8px;
+  }
+
+  .review_quote {
+    font-size: 16px;
+  }
+
+  .review_title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .headers_titles {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .review_box {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+
+  .review_colomn {
+    width: 50%;
+    height: auto;
+  }
+
+  img.image_rev {
+    align-items: center;
+    width: 120px;
+    height: 120px;
+  }
+
+  .review_content {
+    width: 60%;
+  }
+
+  .review_body {
+    padding-left: 10px;
+  }
+
+  .review_author {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  .review_quote {
+    font-size: 13px;
+  }
+
+  .review_title {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .headers_titles {
+    font-size: 25px;
+    margin-bottom: 15px;
   }
 
   .star_rating {
-    width: 250px;
-    height: 50px;
+    width: 125px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .review_box {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
   }
 
-  @media screen and (max-width: 1250px) {
-    .review_box {
-      width: 100%;
-      height: auto;
-      justify-content: center;
-    }
-
-    .review_colomn {
-      width: 70%;
-      height: auto;
-    }
-
-    img.image_rev{
-      align-items: center;
-      width: 200px;
-      height: 200px;
-    }
-  
-    .review_content {
-      padding-left: 10px;
-    }
-    
-    .review_body {
-      padding-left: 10px;
-    }
-  
-    .review_author{
-      font-size: 19px;
-      margin-top: 8px;
-    }
-  
-    .review_quote{
-      font-size: 16px;
-    }
-  
-    .review_title{
-      font-size: 30px;
-      margin-bottom: 15px;
-    }
-  
-    .headers_titles{
-      font-size: 30px;
-      margin-bottom: 15px;
-    }
+  .review_colomn {
+    width: 100%;
+    height: auto;
   }
 
-  @media screen and (max-width: 700px) {
-    .review_box {
-      width: 100%;
-      height: auto;
-      justify-content: center;
-    }
-
-    .review_colomn {
-      width: 50%;
-      height: auto;
-    }
-
-    img.image_rev{
-      align-items: center;
-      width: 120px;
-      height: 120px;
-    }
-  
-    .review_content {
-      width: 60%;
-    }
-    
-    .review_body {
-      padding-left: 10px;
-    }
-  
-    .review_author{
-      font-size: 16px;
-      margin-top: 8px;
-    }
-  
-    .review_quote{
-      font-size: 13px;
-    }
-  
-    .review_title{
-      font-size: 25px;
-      margin-bottom: 15px;
-    }
-  
-    .headers_titles{
-      font-size: 25px;
-      margin-bottom: 15px;
-    }
-
-    .star_rating{
-      width: 125px;
-      height: auto;
-    }
+  img.image_rev {
+    align-items: center;
+    width: 120px;
+    height: 120px;
   }
 
-  @media screen and (max-width: 560px) {
-    .review_box {
-      width: 100%;
-      height: auto;
-      padding: 20px;
-      justify-content: center;
-      margin-bottom: 20px;
-    }
-
-    .review_colomn {
-      width: 100%;
-      height: auto;
-    }
-
-    img.image_rev{
-      align-items: center;
-      width: 120px;
-      height: 120px;
-    }
-  
-    .review_content {
-      width: 60%;
-    }
-    
-    .review_body {
-      padding-left: 10px;
-    }
-  
-    .review_author{
-      font-size: 16px;
-      margin-top: 8px;
-    }
-  
-    .review_quote{
-      font-size: 13px;
-    }
-  
-    .review_title{
-      font-size: 25px;
-      margin-bottom: 15px;
-    }
-  
-    .headers_titles{
-      font-size: 25px;
-      margin-bottom: 15px;
-    }
-
-    .star_rating{
-      width: 125px;
-      height: auto;
-    }
+  .review_content {
+    width: 60%;
   }
+
+  .review_body {
+    padding-left: 10px;
+  }
+
+  .review_author {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  .review_quote {
+    font-size: 13px;
+  }
+
+  .review_title {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .headers_titles {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .star_rating {
+    width: 125px;
+    height: auto;
+  }
+}
+
 .recipes-image {
   border: 4px solid #1f2937;
   border-radius: 15px;
