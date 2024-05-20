@@ -326,7 +326,7 @@ p.top-h2 {
 
 
 
-.section {
+.section_t {
   display: flex;
   width: 45%;
   padding: 0px 0px 0px 18px;
@@ -860,6 +860,7 @@ main.background {
 .reviews {
   color: black;
   display: flex;
+  font-family: "Roboto-Regular";
 }
 
 .review_box {
@@ -943,7 +944,7 @@ img.image_rev {
 .review_title {
   justify-content: center;
   font-size: 36px;
-  font-family: "Roboto-LightItalic", sans-serif;
+  font-family: "Roboto-Bold", sans-serif;
   color: black;
   margin-bottom: 20px;
 }
