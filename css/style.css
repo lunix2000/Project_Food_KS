@@ -45,6 +45,10 @@ header {
   background-color: #1f2937;
 }
 
+header.background_review{
+  background-image: url("../images/spice.jpg");
+}
+
 nav.top-nav {
   display: flex;
   justify-content: space-around;
@@ -101,7 +105,7 @@ h1.title {
 .header-middle-recipe {
   display: flex;
   justify-content: center;
-  padding: 5%;
+  padding: 1%;
   color: white;
 }
 
@@ -363,7 +367,7 @@ img.section-image {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 400px;
+  height: 20vh;
   width: 100%;
   background-color: #e5e7eb;
 }
@@ -767,6 +771,9 @@ footer {
 
 }
 
+main.background{
+  background-image: url("../images/spoons.jpg");
+}
 
 .header-background{
   background-image: url(../images/food.jpg);
@@ -774,6 +781,14 @@ footer {
   background-size: cover;
   background-position: center;
   height: 30%;
+}
+
+.header-background-reviews{
+  /* background-image: url(../images/spice.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center; */
+  background-color:#1F2937;
 }
 
 .reviews {
@@ -785,14 +800,24 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin-bottom: 20px;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 .review_colomn {
-  background-color: #e5e7eb;
+  background-color: white;
   border-radius: 15px;
   width: 60%;
   padding: 20px;
+  box-shadow: 0 16px 18px rgba(0, 0, 0, 0.2);
+}
+.review_colomn:hover {
+  background-color: #1f2937;
+  border-radius: 15px;
+  width: 60%;
+  padding: 20px;
+  box-shadow: 0 16px 18px rgba(0, 0, 0, 0.2);
+  color: white;
 }
 
 .review_image {
@@ -802,9 +827,9 @@ footer {
 }
 
 img.image_rev{
-  width: 250px;
+  width: 200px;
   height: 200px;
-  border-radius: 100%;
+  border-radius: 20px;
   border:4px solid #1F2937;
 }
 
@@ -864,7 +889,7 @@ img.image_rev{
   align-items: center;
   font-family: "Roboto";
   font-size: 36px;
-  color: #e5e7eb;
+  color: #1f2937;
   margin-bottom: 20px;
 }
 
